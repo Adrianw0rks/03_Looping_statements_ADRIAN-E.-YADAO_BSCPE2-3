@@ -1,0 +1,12 @@
+# Function to generate a hollow square of '+' with side length n
+def hollow_square(n):
+    for i in range(n):
+        if i == 0 or i == n - 1:
+            print('+' * n)
+        else:
+            print('+' + ' ' * (n - 2) + '+')
+# Input the side length
+n = int(input("Enter the side length of the square: "))
+# Print and execute the program
+print(f"The side length of the square: {n}")
+hollow_square(n)
