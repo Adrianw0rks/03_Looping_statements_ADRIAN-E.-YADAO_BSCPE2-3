@@ -1,0 +1,9 @@
+# Generate an inverted right triangle
+def right_triangle(n):
+    for i in range(n, 0, -1):
+        print('+' * i)
+# Input the height of the triangle
+n = int(input("Enter the height of the inverted triangle: "))
+# Print and execute the program
+print(f"The height of the inverted triangle: {n}")
+right_triangle(n)
