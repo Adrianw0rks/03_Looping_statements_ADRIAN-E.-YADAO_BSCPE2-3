@@ -1,0 +1,14 @@
+# Compute the cube of an integer
+def cube(number):
+    return number ** 3
+# Ask the user to input the size of the array
+size = int(input("Enter the size of the array: "))
+# Input the element in the array
+array = []
+for i in range(size):
+    element = int(input(f"Enter the element {i+1}: "))
+    array.append(element)
+
+for i in range(size):
+# Compute and print the result
+    print(f"The cube of {array[i]} is {cube(array[i])}")
